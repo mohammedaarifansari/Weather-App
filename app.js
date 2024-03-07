@@ -10,7 +10,7 @@ const botoom_box = document.querySelector('.botoom_box');
 
 
 async function checkweather(city){
-  const api_key = "986008d7b772527b7c317569a6081a9e";
+  const api_key = "in this place use your API key";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
 
   const weather_data = await fetch(`${url}`).then(response => response.json());
